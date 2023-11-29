@@ -27,7 +27,7 @@
             color: #49535B;
             
             & a{
-                color: var(--tp-theme-primary);
+                color: #c3935b;
                 position: relative;
                 display: inline-block;
 
@@ -231,7 +231,7 @@
 
             & a{
                 &:hover{
-                    color: var(--tp-theme-primary);
+                    color: #c3935b;
                 }
             }
 
@@ -272,8 +272,8 @@
     &-btn{
         font-weight: 500;
         font-size: 16px;
-        color: #c3935b;
-        background-color: var(--tp-common-white);
+        color: white;
+        background-color: #c3935b;
         border: 1px solid #c3935b;
         padding: 14px 30px;
         text-align: center;
