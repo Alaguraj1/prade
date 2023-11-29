@@ -418,13 +418,14 @@
 .#{$theme-prifix}-product-list-add-to-cart-btn{
 	font-weight: 500;
 	font-size: 14px;
-	color: var(--tp-common-white);
-	background-color: var(--tp-common-black);
+	color:#c3935b;
+	border: 1px solid #c3935b;
+	background-color: white;
 	display: inline-block;
 	padding: 5px 20px;
 
 	&:hover{
-		background-color: var(--tp-theme-primary);
+		background-color: #c3935b;
 		color: var(--tp-common-white);
 	}
 

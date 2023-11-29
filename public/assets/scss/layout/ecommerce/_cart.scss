@@ -94,7 +94,7 @@
             color: var(--tp-common-black);
 
             &:hover{
-                color: var(--tp-theme-primary);
+                color:#c3935b;
             }
         }
     }
@@ -204,7 +204,7 @@
                     &:checked{
                         & + label{
                             &::after{
-                                border-color: var(--tp-theme-primary);
+                                border-color: #c3935b;
                             }
                             &::before{
                                 opacity: 1;
@@ -246,7 +246,7 @@
                         width: 8px;
                         height: 8px;
                         border-radius: 50%;
-                        background-color: var(--tp-theme-primary);
+                        background-color:#c3935b;
                         visibility: hidden;
                         opacity: 0;
                         @extend %tp-transition;
