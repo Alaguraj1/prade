@@ -9,10 +9,10 @@
 	font-family: var(--tp-ff-jost);
 	font-weight: 400;
 	font-size: 16px;
-	background-color: #c3935b;
+	background-color: #f7f7f7;
 	padding: 9px 26px;
-	color: var(--tp-common-white);
-	border: 1px solid #c3935b;
+	color: var(--tp-common-black);
+	border: 1px solid #f7f7f7;
 
 	& svg{
 		@extend %tp-svg-y-2;
@@ -59,7 +59,8 @@
 	&-border{
 		background-color: transparent;
 		border: 1.5px solid #c3935b;
-		color: #c3935b;
+		background-color: #c3935b;
+		color: white;
 		padding: 8px 29px;
 		& svg{
 			@include transform(translateY(-2px) !important);
@@ -405,8 +406,8 @@
 	}
 
 	&:hover{
-		color: #c3935b;
-		background-color: var(--tp-common-white);
+		color: white;
+		background-color: #c99252;
 	}
 
 	@media #{$md}{

@@ -151,14 +151,14 @@
         &-btn{
             font-weight: 500;
             font-size: 16px;
-            color:#c3935b;
-            background-color: var(--tp-common-white);
+            color:white;
+            background-color:#c3935b;
             padding: 9px 29px;
             border: 1px solid #c3935b;
 
             &:hover{
-                background-color:#c3935b;
-                border-color: #c3935b;
+                background-color:#c99252;
+                border-color: #c99252;
                 color: var(--tp-common-white);
             }
         }
