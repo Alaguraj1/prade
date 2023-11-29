@@ -672,21 +672,21 @@
         }
     }
     &-height-4{
-        min-height: 781px;
+        min-height: 680px;
 
         @media #{$lg}{
-            min-height: 781px;
+            min-height: 680px;
         }
 
         @media #{$md}{
-            min-height: 804px;
+            min-height: 680px;
         }
 
         @media #{$sm, $xs}{
-            min-height:804px;
+            min-height:704px;
         }
         @media(max-width:500px) {
-            min-height:754px;
+            min-height:654px;
         }
     }
     &-thumb-4{

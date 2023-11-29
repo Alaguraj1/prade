@@ -13,12 +13,13 @@ import JewelryBrands from '@/components/brand/jewelry-brands';
 import InstagramAreaFour from '@/components/instagram/instagram-area-4';
 import FeatureAreaThree from '@/components/features/feature-area-3';
 import FooterTwo from '@/layout/footers/footer-2';
+import HeaderTwo from '@/layout/headers/header-2';
 
 const HomeFour = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Home Four" />
-      <HeaderFour/>
+      <HeaderTwo/>
       <JewelryBanner/>
       <FeatureAreaThree />
       <JewelryShopBanner/>
