@@ -5,6 +5,7 @@ import Footer from '@/layout/footers/footer';
 import Wrapper from '@/layout/wrapper';
 import CommonBreadcrumb from '@/components/breadcrumb/common-breadcrumb';
 import RegisterArea from '@/components/login-register/register-area';
+import FooterTwo from '@/layout/footers/footer-2';
 
 const RegisterPage = () => {
   return (
@@ -13,7 +14,7 @@ const RegisterPage = () => {
       <HeaderTwo style_2={true} />
       <CommonBreadcrumb title="Register" subtitle="Register" center={true} />
       <RegisterArea />
-      <Footer primary_style={true} />
+      <FooterTwo primary_style={true} />
     </Wrapper>
   );
 };
