@@ -52,7 +52,7 @@ const ProductDetailsArea = ({ productItem }) => {
 
       {/* product details description */}
       <div className="tp-product-details-bottom pb-50">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-xl-12">
               <DetailsTabNav product={productItem} />
@@ -64,7 +64,7 @@ const ProductDetailsArea = ({ productItem }) => {
 
       {/* related products start */}
       <section className="tp-related-product pt-50 pb-50">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="tp-section-title-wrapper-6 text-center mb-40">
               <span className="tp-section-title-pre-6">Next day Products</span>

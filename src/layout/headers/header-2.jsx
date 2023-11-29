@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 // internal
 import Menus from './header-com/menus';
-import pradeLogo from '@assets/img/prade-logo.png';
+import logo from '@assets/img/logo/logo.svg';
 import useSticky from '@/hooks/use-sticky';
 import useCartInfo from '@/hooks/use-cart-info';
 import { openCartMini } from '@/redux/features/cartSlice';
@@ -13,6 +13,7 @@ import CartMiniSidebar from '@/components/common/cart-mini-sidebar';
 import { CartTwo, Compare, Facebook, Menu, PhoneTwo, Wishlist, Search } from '@/svg';
 import useSearchFormSubmit from '@/hooks/use-search-form-submit';
 import OffCanvas from '@/components/common/off-canvas';
+import pradeLogo from '@assets/img/prade-logo.png';
 
 const HeaderTwo = ({ style_2 = false }) => {
   const { wishlist } = useSelector((state) => state.wishlist);
@@ -25,19 +26,19 @@ const HeaderTwo = ({ style_2 = false }) => {
     <>
       <header>
         <div className={`tp-header-area tp-header-style-${style_2 ? 'primary' : 'darkRed'} tp-header-height`}>
-          <div className="tp-header-top-2 p-relative z-index-11 tp-header-top-border d-none d-md-block" style={{backgroundColor:"rgba(29, 30, 32, 1)"}}>
+          <div className="tp-header-top-2 p-relative z-index-11 tp-header-top-border d-none d-md-block" style={{ backgroundColor: "rgba(29, 30, 32, 1)" }}>
             <div className="container-fluid">
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <div className="tp-header-info d-flex align-items-center">
-                    <p style={{color:"white", fontWeight:"500", margin:"0px", fontSize:"14px", padding:"8px 0px"}}>ADD ANYTHING HERE OR JUST REMOVE IT...</p>
+                    <p style={{ color: "white", fontWeight: "500", margin: "0px", fontSize: "14px", padding: "8px 0px" }}>ADD ANYTHING HERE OR JUST REMOVE IT...</p>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="tp-header-top-right tp-header-top-black d-flex align-items-center justify-content-end">
                     {/* <HeaderTopRight /> */}
-                    <ul style={{color:"white", listStyle:"none", display:"flex"}}>
-                      <li style={{paddingRight:"20px"}}>News Letter</li>
+                    <ul style={{ color: "white", listStyle: "none", display: "flex" }}>
+                      <li style={{ paddingRight: "20px" }}>News Letter</li>
                       <li>FAQ</li>
                     </ul>
                   </div>
@@ -47,19 +48,19 @@ const HeaderTwo = ({ style_2 = false }) => {
           </div>
 
           <div id="header-sticky" className={`tp-header-bottom-2 tp-header-sticky ${sticky ? 'header-sticky' : ''}`}>
-            <div className="container-fluid">
+            <div style={{padding:"0px 15px"}}>
               <div className="tp-mega-menu-wrapper p-relative">
                 <div className="row align-items-center">
                   <div className="col-xl-2 col-lg-5 col-md-5 col-sm-4 col-6">
                     <div className="logo">
                       <Link href="/">
-                        <Image src={pradeLogo} alt="logo" priority className='prade-shopHeader-logo' />
+                        <Image src={pradeLogo} alt="logo" priority />
                       </Link>
                     </div>
                   </div>
                   <div className="col-xl-5 d-none d-xl-block">
                     <div className="main-menu menu-style-2">
-                      <nav className="tp-main-menu-content menu-lists">
+                      <nav className="tp-main-menu-content">
                         <Menus />
                       </nav>
                     </div>

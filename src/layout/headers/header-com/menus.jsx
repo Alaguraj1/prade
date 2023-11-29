@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Menus = () => {
   return (
-    <ul>
+    <ul style={{display:"flex", justifyContent:"end"}}>
       {menu_data.map((menu) =>
         menu.homes ? (
           <li key={menu.id} className="has-dropdown has-mega-menu">
