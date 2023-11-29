@@ -184,8 +184,8 @@
             &:checked{
                 & ~ label{
                     &::after{
-                        background-color: var(--tp-theme-primary);
-                        border-color: var(--tp-theme-primary);
+                        background-color: #c3935b;
+                        border-color: #c3935b;
                     }
                     &::before{
                         visibility: visible;
@@ -244,7 +244,7 @@
         & a{
             font-weight: 400;
             font-size: 15px;
-            color: var(--tp-theme-primary);
+            color: #c3935b;
             position: relative;
             display: inline-block;
 
@@ -256,7 +256,7 @@
                 bottom: 4px;
                 width: 0%;
                 height: 1px;
-                background-color: var(--tp-theme-primary);
+                background-color: #c3935b;
                 @extend %tp-transition;
             }
 
@@ -272,8 +272,9 @@
     &-btn{
         font-weight: 500;
         font-size: 16px;
-        color: var(--tp-common-white);
-        background-color: var(--tp-common-black);
+        color: #c3935b;
+        background-color: var(--tp-common-white);
+        border: 1px solid #c3935b;
         padding: 14px 30px;
         text-align: center;
         display: inline-block;

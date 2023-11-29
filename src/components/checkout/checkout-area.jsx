@@ -15,10 +15,10 @@ const CheckoutArea = () => {
   return (
     <>
       <section
-        className="tp-checkout-area pb-120"
+        className="tp-checkout-area pb-50"
         style={{ backgroundColor: "#EFF1F5" }}
       >
-        <div className="container">
+        <div className="container-fluid">
           {cart_products.length === 0 && (
             <div className="text-center pt-50">
               <h3 className="py-2">No items found in cart to checkout</h3>

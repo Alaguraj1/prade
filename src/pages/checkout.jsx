@@ -8,23 +8,24 @@ import HeaderTwo from '@/layout/headers/header-2';
 import Footer from '@/layout/footers/footer';
 import CommonBreadcrumb from '@/components/breadcrumb/common-breadcrumb';
 import CheckoutArea from '@/components/checkout/checkout-area';
+import FooterTwo from '@/layout/footers/footer-2';
 
 
 const CheckoutPage = () => {
   const router = useRouter();
-  useEffect(() => {
-    const isAuthenticate = Cookies.get("userInfo");
-    if(!isAuthenticate){
-      router.push("/login")
-    }
-  },[router])
+  // useEffect(() => {
+  //   const isAuthenticate = Cookies.get("userInfo");
+  //   if(!isAuthenticate){
+  //     router.push("/login")
+  //   }
+  // },[router])
   return (
     <Wrapper>
       <SEO pageTitle="Checkout" />
       <HeaderTwo style_2={true} />
       <CommonBreadcrumb title="Checkout" subtitle="Checkout" bg_clr={true} />
       <CheckoutArea/>
-      <Footer style_2={true} />
+      <FooterTwo style_2={true} />
     </Wrapper>
   );
 };

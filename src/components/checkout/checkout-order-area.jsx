@@ -36,7 +36,7 @@ const CheckoutOrderArea = ({ checkoutData }) => {
           {/*  item list */}
           {cart_products.map((item) => (
             <li key={item._id} className="tp-order-info-list-desc">
-              <p>
+              <p className="para">
                 {item.title} <span> x {item.orderQuantity}</span>
               </p>
               <span>${item.price.toFixed(2)}</span>
