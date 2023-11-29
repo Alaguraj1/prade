@@ -76,7 +76,7 @@ const DetailsTabNav = ({ product }) => {
 
             <div className="tp-product-details-additional-info ">
               <div className="row justify-content-center">
-                <div className="col-xl-10">
+                <div className="col-xl-12">
                   <table>
                     <tbody>
                       {additionalInformation?.map((item, i) => (

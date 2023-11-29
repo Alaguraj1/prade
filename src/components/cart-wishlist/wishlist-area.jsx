@@ -8,7 +8,7 @@ const WishlistArea = () => {
   return (
     <>
       <section className="tp-cart-area pb-50">
-        <div className="container">
+        <div className="container-fluid">
           {wishlist.length === 0 &&
             <div className='text-center pt-50'>
               <h3>No Wishlist Items Found</h3>

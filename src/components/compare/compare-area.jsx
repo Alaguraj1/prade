@@ -23,7 +23,7 @@ const CompareArea = () => {
   return (
     <>
       <section className="tp-compare-area pb-50">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
             <div className="col-xl-12">
               {compareItems.length === 0 && (
