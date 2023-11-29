@@ -48,7 +48,7 @@
         #{$self}{
             &-action{
                 &-badge{
-                    background-color: var(--tp-theme-secondary);
+                    background-color: #c3935b;
                 }
                 &-item{
                     &:last-child{
@@ -59,7 +59,7 @@
                 }
                 &-btn{
                     &:hover{
-                        color: var(--tp-theme-secondary);
+                        color: #c3935b;
                     }
                 }
             }
@@ -68,7 +68,7 @@
                     & li{
                         & a{
                             &:hover{
-                                color: var(--tp-theme-secondary);
+                                color: #c3935b;
                             }
                         }
                     }
@@ -76,12 +76,12 @@
             }
         }
         .tp-header-sticky.header-sticky .tp-header-action-item .tp-header-action-btn .tp-header-action-badge {
-            background-color: var(--tp-theme-secondary);
+            background-color:  #c3935b;
             border-color:var(--tp-common-white);
             color: var(--tp-common-white);
         }
         .tp-header-sticky.header-sticky .tp-header-action-item .tp-header-action-btn:hover {
-            color: var(--tp-theme-secondary);
+            color:  #c3935b;
         }
     }
     &-style-primary{
@@ -227,7 +227,7 @@
                 color: var(--tp-text-1);
             }
             &:focus{
-                border-color: var(--tp-theme-secondary);
+                border-color: #c3935b;
             }
         }
         & button{
@@ -238,7 +238,7 @@
             font-size: 24px;
 
             &:hover{
-                color: var(--tp-theme-secondary);
+                color: #c3935b;
             }
 
             
