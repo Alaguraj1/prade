@@ -56,12 +56,13 @@
             & .tp-shop-widget-filter-btn{
                 font-weight: 400;
                 font-size: 14px;             
-                color: var(--tp-common-black);
+                color: #c3935b;
+                border: 1px solid #c3935b;
                 background-color: #F5F5F5;
                 padding: 2px 21px;
                 &:hover{
                     color: var(--tp-common-white);
-                    background-color: var(--tp-common-black);
+                    background-color: #c3935b;
                 }
             }
         }
@@ -84,8 +85,8 @@
                     &:checked{
                         & ~ label{
                             &::after{
-                                background-color: var(--tp-theme-primary);
-                                border-color: var(--tp-theme-primary);
+                                background-color:#c3935b;
+                                border-color: #c3935b;
                             }
                             &::before{
                                 visibility: visible;
@@ -183,13 +184,13 @@
                         }
                     }
                     &:hover{
-                        color: var(--tp-theme-primary);
+                        color:#c3935b;
                         &::after{
-                            background-color: var(--tp-theme-primary);
+                            background-color:#c3935b;
                         }
                         & span{
-                            background-color: var(--tp-theme-primary);
-                            border-color: var(--tp-theme-primary);
+                            background-color: #c3935b;
+                            border-color: #c3935b;
                             color: var(--tp-common-white);
                         }
                     }
@@ -223,8 +224,8 @@
 
                     &:hover{
                         & .tp-shop-widget-checkbox-circle-number{
-                            background-color: var(--tp-theme-primary);
-                            border-color: var(--tp-theme-primary);
+                            background-color:#c3935b;
+                            border-color: #c3935b;
                             color: var(--tp-common-white);
                         }
                     }
