@@ -163,7 +163,7 @@ const ShopPage = ({ query }) => {
     <Wrapper>
       <SEO pageTitle="Shop" />
       <HeaderTwo style_2={true} />
-      <ShopBreadcrumb title="Shop Grid" subtitle="Shop Grid" bgImage={shopBanner}/>
+      <ShopBreadcrumb title="Shop" subtitle="Shop Grid" bgImage={shopBanner}/>
       {content}
       {/* <Footer primary_style={true} /> */}
       <FooterTwo primary-style={true} />
