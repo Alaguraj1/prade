@@ -7,10 +7,6 @@ import GoogleSignUp from "./google-sign-up";
 
 const LoginArea = () => {
 
-const newData =1
-console.log('✌️newData --->', newData);
-
-
   return (
     <>
       <section className="tp-login-area pb-140 p-relative z-index-1 fix">
