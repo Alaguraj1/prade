@@ -6,36 +6,36 @@ import home_4 from '@assets/img/menu/menu-home-4.jpg';
 const menu_data = [
   {
     id: 1,
-    homes: true,
+    // homes: true,
     title: 'Home',
-    link: '/',
-    home_pages: [
-      {
-        img: home_1,
-        title: 'Electronics',
-        link: '/'
-      },
-      {
-        img: home_2,
-        title: 'Fashion',
-        link: '/home-2'
-      },
-      {
-        img: home_3,
-        title: 'Beauty',
-        link: '/home-3'
-      },
-      {
-        img: home_4,
-        title: 'Jewelry',
-        link: '/home-4'
-      }
-    ]
+    link: '/home-4',
+    // home_pages: [
+    //   {
+    //     img: home_1,
+    //     title: 'Electronics',
+    //     link: '/'
+    //   },
+    //   {
+    //     img: home_2,
+    //     title: 'Fashion',
+    //     link: '/home-2'
+    //   },
+    //   {
+    //     img: home_3,
+    //     title: 'Beauty',
+    //     link: '/home-3'
+    //   },
+    //   {
+    //     img: home_4,
+    //     title: 'Jewelry',
+    //     link: '/home-4'
+    //   }
+    // ]
   },
   {
     id: 2,
     products: true,
-    title: 'Products',
+    title: 'Shop',
     link: '/shop',
     product_pages: [
       {
@@ -80,47 +80,73 @@ const menu_data = [
       },
     ]
   },
+  // {
+  //   id: 3,
+  //   sub_menu: true,
+  //   title: 'Shop',
+  //   link: '/shop',
+  //   sub_menus: [
+  //     { title: 'Shop', link: '/shop' },
+  //     { title: 'Right Sidebar', link: '/shop-right-sidebar' },
+  //     { title: 'Hidden Sidebar', link: '/shop-hidden-sidebar' },
+  //   ],
+  // },
   {
-    id: 3,
-    sub_menu: true,
-    title: 'Shop',
-    link: '/shop',
-    sub_menus: [
-      { title: 'Shop', link: '/shop' },
-      { title: 'Right Sidebar', link: '/shop-right-sidebar' },
-      { title: 'Hidden Sidebar', link: '/shop-hidden-sidebar' },
-    ],
+    id: 4,
+    single_link: true,
+    title: 'About Us',
+    link: '/about',
   },
   {
     id: 4,
     single_link: true,
-    title: 'Coupons',
+    title: 'Gift Card',
     link: '/coupon',
   },
   {
-    id: 5,
-    sub_menu: true,
-    title: 'Blog',
-    link: '/blog',
-    sub_menus: [
-      { title: 'Blog Standard', link: '/blog' },
-      { title: 'Blog Grid', link: '/blog-grid' },
-      { title: 'Blog List', link: '/blog-list' },
-      { title: 'Blog Details', link: '/blog-details' },
-      { title: 'Blog Details Full Width', link: '/blog-details-2' },
-    ]
+    id: 4,
+    single_link: true,
+    title: 'Pre Orders',
+    link: '/shop',
   },
+
   {
-    id: 6,
-    sub_menu: true,
-    title: 'Pages',
-    link: '/contact',
-    sub_menus: [
-      { title: 'about', link: '/about' },
-      { title: 'contact', link: '/contact' },
-     
-    ]
+    id: 4,
+    single_link: true,
+    title: 'Sale',
+    link: '/shop',
   },
+
+  {
+    id: 4,
+    single_link: true,
+    title: 'Contact us',
+    link: '/contact',
+  },
+  // {
+  //   id: 5,
+  //   sub_menu: true,
+  //   title: 'Blog',
+  //   link: '/blog',
+  //   sub_menus: [
+  //     { title: 'Blog Standard', link: '/blog' },
+  //     { title: 'Blog Grid', link: '/blog-grid' },
+  //     { title: 'Blog List', link: '/blog-list' },
+  //     { title: 'Blog Details', link: '/blog-details' },
+  //     { title: 'Blog Details Full Width', link: '/blog-details-2' },
+  //   ]
+  // },
+  // {
+  //   id: 6,
+  //   sub_menu: true,
+  //   title: 'Pages',
+  //   link: '/contact',
+  //   sub_menus: [
+  //     { title: 'about', link: '/about' },
+  //     { title: 'contact', link: '/contact' },
+     
+  //   ]
+  // },
 ]
 
 export default menu_data;

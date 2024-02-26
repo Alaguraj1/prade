@@ -9,16 +9,14 @@ import ErrorMsg from "@/components/common/error-msg";
 import ShopFilterOffCanvas from "@/components/common/shop-filter-offcanvas";
 import ShopLoader from "@/components/loader/shop/shop-loader";
 import FooterTwo from "@/layout/footers/footer-2";
-import shopBanner from "../../public/assets/img/shop-banner.jpg"
-
-
-
+import shopBanner from "../../public/assets/img/shop-banner.jpg";
 
 const ShopPage = ({ query }) => {
   const { data: products, isError, isLoading } = useGetAllProductsQuery();
+  console.log("✌️data --->", products);
   const [priceValue, setPriceValue] = useState([0, 0]);
   const [selectValue, setSelectValue] = useState("");
-  const [currPage, setCurrPage] = useState(1); 
+  const [currPage, setCurrPage] = useState(1);
   // Load the maximum price once the products have been loaded
   useEffect(() => {
     if (!isLoading && !isError && products?.data?.length > 0) {
@@ -54,10 +52,14 @@ const ShopPage = ({ query }) => {
   let content = null;
 
   if (isLoading) {
-    content = <ShopLoader loading={isLoading}/>;
+    content = <ShopLoader loading={isLoading} />;
   }
   if (!isLoading && isError) {
-    content = <div className="pb-80 text-center"><ErrorMsg msg="There was an error" /></div>;
+    content = (
+      <div className="pb-80 text-center">
+        <ErrorMsg msg="There was an error" />
+      </div>
+    );
   }
   if (!isLoading && !isError && products?.data?.length === 0) {
     content = <ErrorMsg msg="No Products found!" />;
@@ -163,7 +165,7 @@ const ShopPage = ({ query }) => {
     <Wrapper>
       <SEO pageTitle="Shop" />
       <HeaderTwo style_2={true} />
-      <ShopBreadcrumb title="Shop" subtitle="Shop Grid" bgImage={shopBanner}/>
+      <ShopBreadcrumb title="Shop" subtitle="Shop Grid" bgImage={shopBanner} />
       {content}
       {/* <Footer primary_style={true} /> */}
       <FooterTwo primary-style={true} />
