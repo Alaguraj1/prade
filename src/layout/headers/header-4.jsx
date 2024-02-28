@@ -31,7 +31,7 @@ const HeaderFour = () => {
               <div className="row align-items-center">
                 <div className="col-xl-2 col-lg-2 col-6">
                   <div className="logo">
-                    <Link href="/home-4">
+                    <Link href="/">
                       <Image className="logo-light" src={pradeLogo} alt="logo" />
                       <Image className="logo-dark" src={pradeLogo} alt="logo" />
                     </Link>
