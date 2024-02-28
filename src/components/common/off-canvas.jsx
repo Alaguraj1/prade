@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 // internal
 import { CloseTwo } from '@/svg';
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/prade-logo.png';
 import contact_img from '@assets/img/icon/contact.png';
 import language_img from '@assets/img/icon/language-flag.png';
 import MobileCategory from '@/layout/headers/header-com/mobile-category';
@@ -52,7 +52,7 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
                 </nav>
               </div>
             </div>
-            <div className="tp-main-menu-mobile fix d-lg-none mb-40">
+            <div className="tp-main-menu-mobile fix d-xl-none mb-40">
               <MobileMenus />
             </div>
 
