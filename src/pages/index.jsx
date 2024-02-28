@@ -18,7 +18,7 @@ import HeaderTwo from '@/layout/headers/header-2';
 const HomeFour = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Home Four" />
+      <SEO pageTitle="Home" />
       <HeaderTwo/>
       <JewelryBanner/>
       <FeatureAreaThree />

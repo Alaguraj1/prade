@@ -15,7 +15,7 @@ const SEO = ({pageTitle}) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/prade-logo.png" />
       {/* <Image src={pradeLogo} alt="logo" /> */}
     </Head>
   </>
